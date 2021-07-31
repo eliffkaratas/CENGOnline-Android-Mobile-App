@@ -1,7 +1,7 @@
 # CENGOnline-Android-Mobile-App
 Android Mobile Application development in Java with using SQL
 
-Functionalities
+**Functionalities**
 
 1. Login
 Two types of users can log into the CENGOnline course management system: Teachers and Students.
@@ -19,4 +19,4 @@ Teachers can add/edit/delete announcements. Students can only view the announcem
 5. Messaging
 All the system users can send individual messages to each other.
 
-All of the information and results can be found in report file.
+**All of the information and results can be found in report file.**
