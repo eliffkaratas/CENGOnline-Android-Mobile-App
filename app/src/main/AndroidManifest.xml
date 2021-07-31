@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cengonline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MessageTeacher"></activity>
+        <activity android:name=".MessageStudent" />
+        <activity android:name=".Submit_List" />
+        <activity android:name=".Add_Comment" />
+        <activity android:name=".Post_Comment" />
+        <activity android:name=".Upload_Assignment" />
+        <activity android:name=".Assigment_List" />
+        <activity android:name=".Assigment" />
+        <activity android:name=".Announcment" />
+        <activity android:name=".Post" />
+        <activity android:name=".Course_Menu" />
+        <activity android:name=".Course" />
+        <activity android:name=".teachermenu" />
+        <activity android:name=".Log" />
+        <activity android:name=".Student_Menu" />
+        <activity android:name=".StudentPage" />
+        <activity android:name=".List_Teacher" />
+        <activity android:name=".List_Student" />
+        <activity android:name=".Teacher_Login" />
+        <activity android:name=".Teacher_Page" />
+        <activity android:name=".Admin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
